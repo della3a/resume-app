@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+body {
+  font-family: 'Roboto', sans-serif
+}
+
+.hover-gray{
+  @apply hover:bg-transparent hover:text-white;
+}
+
+}
